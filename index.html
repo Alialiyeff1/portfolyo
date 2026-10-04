@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Əli | BossReply — Full Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <span class="logo">&lt;BossReply /&gt;</span>
+      <ul>
+        <li><a href="#about">Haqqımda</a></li>
+        <li><a href="#skills">Bacarıqlar</a></li>
+        <li><a href="#projects">Layihələr</a></li>
+        <li><a href="#blog">Bloq</a></li>
+        <li><a href="#contact">Əlaqə</a></li>
+        <li><button id="theme" aria-label="Mövzunu dəyiş">◐</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="tag">Salam, mən</span>
+    <h1>Əli — <span class="typed" id="typed"></span><span class="cursor">|</span></h1>
+    <p>Bakılıyam, 18 yaşlı Full Stack developer. Türkiyədə Bilişim Sistemləri Mühəndisliyi oxuyuram və hədəfim kibertəhlükəsizlik sahəsində mütəxəssis olmaqdır.</p>
+    <a class="btn" href="#projects">Layihələrimə bax</a>
+    <a class="btn alt" href="#contact">Əlaqə saxla</a>
+  </div>
+
+  <section id="about">
+    <h2>Haqqımda</h2>
+    <p>Mən Əliyəm, internetdə daha çox <strong>BossReply</strong> adı ilə tanınıram. Azərbaycanlıyam, Bakıdan olub Türkiyədə Mehmet Akif Ersoy Universitetində Bilişim Sistemləri Mühəndisliyi ixtisası üzrə təhsil alıram. Frontend-dən backend-ə qədər veb tətbiqlər hazırlayıram və indi bu biliyi kibertəhlükəsizliklə birləşdirib tətbiqlərə hücumçunun gözü ilə də baxmağı öyrənirəm.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Bacarıqlar</h2>
+    <div class="grid">
+      <div class="card"><h3>Full Stack</h3><p>HTML, CSS, JavaScript, React və server tərəfi inkişaf.</p></div>
+      <div class="card"><h3>Proqramlaşdırma dilləri</h3><p>Java, C#, C++ və MySQL ilə verilənlər bazası işləri.</p></div>
+      <div class="card"><h3>Kibertəhlükəsizlik (hədəf)</h3><p>Veb təhlükəsizliyi, şəbəkə əsasları və təhlükəsiz kodlaşdırma üzərində çalışıram.</p></div>
+      <div class="card"><h3>Kripto</h3><p>Bazarı izləyir və alqı-satqı ilə məşğul oluram.</p></div>
+    </div>
+    <div class="chips">
+      <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+      <span class="chip">React</span><span class="chip">Java</span><span class="chip">C#</span>
+      <span class="chip">C++</span><span class="chip">MySQL</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Layihələr</h2>
+    <div class="grid" id="projectList"></div>
+  </section>
+
+  <section id="blog">
+    <h2>Bloq</h2>
+    <div class="posts" id="postList"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Əlaqə</h2>
+    <ul class="contact-list">
+      <li><span>E-poçt</span><a href="mailto:eli.elizade.208@gmail.com">eli.elizade.208@gmail.com</a></li>
+      <li><span>Telegram</span><a href="https://t.me/BossReply" target="_blank" rel="noopener">@BossReply</a></li>
+      <li><span>Azərbaycan nömrəsi</span><a href="tel:+994504803458">+994 50 480 34 58</a></li>
+      <li><span>Türkiyə nömrəsi</span><a href="tel:+905822046682">+90 582 204 66 82</a></li>
+    </ul>
+    <a class="btn" href="mailto:eli.elizade.208@gmail.com">Mənə yaz</a>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Əli (BossReply). Bütün hüquqlar qorunur.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
